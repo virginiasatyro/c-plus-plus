@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1514140574 source:c:\users\vivi_\onedrive\documentos\disciplinas\2018.2\pds2\learning c++\exemples\virus\main.cpp
+	<iostream>
+
+1536084056 source:c:\users\vivi_\onedrive\documentos\disciplinas\2018.2\pds2\learning c++\exemples\virus\duasclasses.cpp
+	"duasclasses.h"
+
+1536084417 c:\users\vivi_\onedrive\documentos\disciplinas\2018.2\pds2\learning c++\exemples\virus\duasclasses.h
+
+1536084056 source:c:\users\vivi_\onedrive\documentos\disciplinas\2018.2\pds2\learning c++\exemples\virus\virus.cpp
+	"virus.h"
+
+1536082382 c:\users\vivi_\onedrive\documentos\disciplinas\2018.2\pds2\learning c++\exemples\virus\virus.h
+	<string>
+

@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1536019043 source:c:\users\vivi_\onedrive\documentos\disciplinas\2018.2\pds2\learning c++\exercises\lab1\rectangle\main.cpp
+	<iostream>
+	"rectangle.h"
+
+1536019492 source:c:\users\vivi_\onedrive\documentos\disciplinas\2018.2\pds2\learning c++\exercises\lab1\rectangle\rectangle.cpp
+	"rectangle.h"
+
+1536019163 c:\users\vivi_\onedrive\documentos\disciplinas\2018.2\pds2\learning c++\exercises\lab1\rectangle\rectangle.h
+
