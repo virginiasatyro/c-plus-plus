@@ -1,0 +1,186 @@
+package.cpp
+
+#include "package.h"
+
+#include <string>
+
+#include <iostream>
+
+
+Package::Package(unsigned int peso, double custo, std::string nome, std::string endereco): _peso(peso),_custo(custo),_nome(nome),_endereco(endereco){
+
+    if(peso < 0){
+
+        throw _peso = 10001;
+
+    }
+    
+
+}
+
+
+double Package::calculate_cost(){
+
+    return get_peso()*get_custo_por_quilo();
+
+}
+
+
+
+double Package::get_peso(){
+
+    return _peso;
+
+}
+
+
+
+double Package::get_custo_por_quilo(){
+
+    return _custo;
+
+}
+
+
+
+Package::~Package(){};
+
+==================================================
+package.h
+
+#ifndef PACKAGE_H_INCLUDED
+#define PACKAGE_H_INCLUDED
+#include <string>
+#include <iostream>
+
+class Package{
+private:
+    unsigned int _peso;
+    double _custo;
+    std::string _nome;
+    std::string _endereco;
+public:
+    Package(unsigned int peso, double custo, std::string nome, std::string endereco);
+    virtual ~Package();
+    virtual double calculate_cost();
+    double get_peso();
+    double get_custo_por_quilo();
+};
+
+
+#endif
+
+========================================================================
+
+twodaypackage.cpp
+
+#include <iostream>
+
+#include <string>
+
+#include "package.h"
+
+#include "twodaypackage.h"
+
+
+TwoDayPackage::TwoDayPackage(unsigned int peso,double custo,double taxa,std::string nome,std::string endereco): Package(peso,custo,nome,endereco),_taxa(taxa){}
+
+
+double TwoDayPackage::calculate_cost(){
+
+    return (get_peso()*get_custo_por_quilo()) + get_taxa();
+
+}
+
+
+double TwoDayPackage::get_taxa(){
+
+    return _taxa;
+
+}
+
+
+TwoDayPackage::~TwoDayPackage(){}
+
+====================================================================
+
+twodaypackage.h
+
+#ifndef PACKAGE2_H_INCLUDED
+#define PACKAGE2_H_INCLUDED
+#include "package.h"
+
+class TwoDayPackage:public Package{
+private:
+    double _taxa;
+public:
+    TwoDayPackage(unsigned int peso, double custo, double taxa, std::string nome, std::string endereco);
+    ~TwoDayPackage();
+    virtual double calculate_cost() override;
+    double get_taxa();
+};
+
+#endif
+
+==================================================================
+
+overnightpackage.cpp
+
+#include <iostream>
+
+#include <string>
+
+#include "package.h"
+
+#include "overnightpackage.h"
+
+
+OverNightPackage::OverNightPackage(unsigned int peso,double custo,double adicional,std::string nome,std::string endereco): Package(peso,custo,nome,endereco),_adicional(adicional){}
+
+
+double OverNightPackage::calculate_cost(){
+
+    return (get_peso()*get_custo_por_quilo()) + (get_peso()*get_adicional());
+
+}
+
+
+double OverNightPackage::get_adicional(){
+
+    return _adicional;
+
+}
+
+OverNightPackage::~OverNightPackage(){}
+
+======================================================================
+
+overnightpackage.h
+
+#ifndef NIGHTPACKAGE_H_INCLUDED
+
+#define NIGHTPACKAGE_H_INCLUDED
+ 
+
+class OverNightPackage:public Package{
+
+private:
+
+    double _adicional;
+
+public:
+
+    OverNightPackage(unsigned int peso, double custo, double adicional, std::string nome, std::string endereco);
+
+    ~OverNightPackage();
+
+    virtual double calculate_cost() override;
+
+    double get_adicional();
+
+};
+
+
+
+
+#endif

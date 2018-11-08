@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1539264721 source:c:\users\vivi_\onedrive\documentos\disciplinas\2018.2\pds2\learning_cpp\exercises\lab3\teste_formas\main.cpp
+	"circle.h"
+
+1539265301 source:c:\users\vivi_\onedrive\documentos\disciplinas\2018.2\pds2\learning_cpp\exercises\lab3\teste_formas\shape.cpp
+	"shape.h"
+
+1539383793 c:\users\vivi_\onedrive\documentos\disciplinas\2018.2\pds2\learning_cpp\exercises\lab3\teste_formas\shape.h
+	<iostream>
+
+1539383408 source:c:\users\vivi_\onedrive\documentos\disciplinas\2018.2\pds2\learning_cpp\exercises\lab3\teste_formas\circle.cpp
+	"circle.h"
+	<iostream>
+
+1539383860 c:\users\vivi_\onedrive\documentos\disciplinas\2018.2\pds2\learning_cpp\exercises\lab3\teste_formas\circle.h
+	"twodim.h"
+
+1539383409 c:\users\vivi_\onedrive\documentos\disciplinas\2018.2\pds2\learning_cpp\exercises\lab3\teste_formas\twodim.h
+	"shape.h"
+
+1539224022 source:c:\users\vivi_\onedrive\documentos\disciplinas\2018.2\pds2\learning_cpp\exercises\lab3\teste_formas\threedim.cpp
+

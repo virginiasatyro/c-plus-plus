@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1539103938 source:c:\users\vivi_\onedrive\documentos\disciplinas\2018.2\pds2\learning_cpp\exemples\banco2\banco.cpp
+
+1539104611 source:c:\users\vivi_\onedrive\documentos\disciplinas\2018.2\pds2\learning_cpp\exemples\banco2\cliente.cpp
+	"cliente.h"
+
+1539104612 source:c:\users\vivi_\onedrive\documentos\disciplinas\2018.2\pds2\learning_cpp\exemples\banco2\conta.cpp
+	<stdexcept>
+	"conta.h"
+
+1539104655 source:c:\users\vivi_\onedrive\documentos\disciplinas\2018.2\pds2\learning_cpp\exemples\banco2\endereco.cpp
+	<string>
+
+1514140574 source:c:\users\vivi_\onedrive\documentos\disciplinas\2018.2\pds2\learning_cpp\exemples\banco2\main.cpp
+	<iostream>
+
+1539104612 c:\users\vivi_\onedrive\documentos\disciplinas\2018.2\pds2\learning_cpp\exemples\banco2\cliente.h
+	<functional>
+	<string>
+	<vector>
+	"conta.h"
+
+1539104611 c:\users\vivi_\onedrive\documentos\disciplinas\2018.2\pds2\learning_cpp\exemples\banco2\conta.h
+
