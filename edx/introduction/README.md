@@ -26,7 +26,7 @@
 
 - Repetition Statements
 
-#### Module 4 
+#### Module 4 - Functions
 
 - Introducing Functions
 
@@ -35,5 +35,3 @@
 - Encapsulation
 
 - Const Objects
-
-
