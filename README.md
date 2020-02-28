@@ -10,7 +10,7 @@
 
 ```gcc exemplo.c -o exemplo```
 
-```gcc exemplo.cpp -o exemplo```
+```g++ exemplo.cpp -o exemplo```
 
 ### Execução 
 
