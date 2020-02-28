@@ -1,5 +1,5 @@
 /***********************************************************************************
- * File: grade_book_4_h/GradeBook.h
+ * File: grade_book/GradeBook.h
  * C++
  * Author: Virgínia Sátyro
  * License: Free - Open Source
@@ -19,9 +19,10 @@ private:
 
 public:
     
-    GradeBook(string name); // construtor inicializa courseName com a string fornecida pelo argumento
-    void setCourseName(string name); // função que configura o nome do curso
+    GradeBook(string); // construtor inicializa courseName com a string fornecida pelo argumento
+    void setCourseName(string); // função que configura o nome do curso
     string getCourseName(); // função que obtem o nome do curso 
     void displayMessage(); // função que exibe mensagem de boas vindas 
+    void determineClassAverage(); // calcula a média das notas inseridas pelo usuário
 
 }; // end of class GradeBook
