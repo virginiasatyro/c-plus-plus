@@ -4,20 +4,40 @@
 
 ### 11) Depurando Programas
 
-### 12)
+### 12) Comando ```while```
 
-### 13)
+### 13) Loop - Comando ```for```
 
-### 14)
+### 14) Criando Funções
 
-### 15)
+```teste.cpp```
 
-### 16)
+### 15) Sobrecarga de Nomes de Funções
 
-### 17)
+C++ permite que hajam funções com o mesmo nome. Essas funções precisam se diferenciar pelo número ou pelos tipos de argumentos. Isso é chamado de sobrecarga de funções.
 
-### 18)
+```sobrecarga_funcoes.cpp```
 
-### 19)
+### 16) Criando Módulos 
 
-### 20)
+```my_math.h``` 
+```my_math.cpp```
+```main.cpp```
+
+### 17) Escopo de Variável
+
+Exemplo de escopo de variáveis e variável ```static```.
+
+```escopo_variavel.cpp```
+
+### 18) Vetores 
+
+```vetores.cpp```
+
+### 19) Vetores de Caracteres (strings) - Parte 1
+
+```strings.cpp```
+
+### 20) Vetores de Caracteres (strings) - Parte 2
+
+```strings.cpp```

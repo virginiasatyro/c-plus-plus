@@ -14,10 +14,10 @@
 
 ### 6) Operadores
 
-### 7) Variável Caractere (char)
+### 7) Variável Caractere (```char```)
 
-### 8) Declaração Condicional if - Parte 1
+### 8) Declaração Condicional ```if``` - Parte 1
 
-### 9) Declaração Condicional if - Parte 2
+### 9) Declaração Condicional ```if``` - Parte 2
 
-### 10) Comando switch
+### 10) Comando ```switch```
