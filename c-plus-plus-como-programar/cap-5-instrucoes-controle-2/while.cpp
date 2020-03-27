@@ -5,7 +5,7 @@
  * License: Free - Open Source
  * Created on Fevereiro of 2020
  * 
- * While loop test
+ * While loop test. Do while loop test.
 ***********************************************************************************/
 
 #include <iostream> 
@@ -23,5 +23,16 @@ int main()
     }
 
     cout << endl;
+
+    int counter2 = 1; // inicializa o contador 
+
+    do
+    {
+        cout << counter2 << " "; // exibe contador 
+        counter2++; // incrementa contador 
+    } while(counter2 <= 10);
+
+    cout << endl;
+
     return 0;
 }
