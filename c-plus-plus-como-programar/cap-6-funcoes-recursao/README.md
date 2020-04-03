@@ -255,3 +255,86 @@ não é considerada uma definição. O membro de dados é declarado no escopo da
 classe, mas a definição é realizada no escopo do arquivo. Esses membros 
 estáticos têm vinculação externa.
 
+### Funções ```inline```
+
+Implementar um programa como um conjunto de funções é bom do ponto de vista da 
+engenharia de software, mas as chamadas envolvem <i>overhead</i> de tempo de 
+execução. Funções ```inline``` ajudam a reduzir o <i>overhead</i> de chamada 
+de função - especialmente em funções pequenas. 
+
+Colocar o qualificador antes do tipo de retorno de uma função na definição 
+'aconselha' o compilador a gerar uma cópia do código da função no seu lugar
+(quando apropriado) para evitar a chamada de função. Em troca, múltiplas 
+cópias do código de função são inseridas no programa (tornando frequentemente
+o programa maior) em vez de haver uma única cópia da função para a qual o
+controle é passado toda vez que a função é chamada. O compilador pode ignorar
+o qualificador ```inline``` e em geral faz isso para todas as função, exceto 
+as menores. 
+
+Deve ser usado em funções pequenas, frequentemente utilizadas. 
+
+```funcao_inline_const.cpp```
+
+### ```const```
+
+O qualificador deve ser utilizado para impor o princípio do menor privilégio. 
+Utilizar esse princípio para projetar software de maneira adequada pode reduzir
+significativamente o tempo de depuração e efeitos colaterais, e pode tornar 
+o programa mais fácil de modificar e manter.
+
+```funcao_inline_const.cpp```
+
+### Dicas de Desempenho
+
+Uma desvantagem de __passar por valor__ é que, se um item de dados grande estiver 
+sendo passado, copiar esses dados pode exigir uma quantidade considerável de 
+tempo de execução e espaço na memória. 
+
+A __passagem por referência__ é uma boa por razões de desempenho, porque pode 
+eliminar o <i>overhead</i> da passagem por valor de copiar grandes quantidades
+de dados. 
+
+A passagem por referência pode enfraquecer a segurança, porque a função chamada
+pode corromper os dados do chamador.
+
+Para indicar que um parâmetro é passado por referência:
+
+```int &count```
+
+Lê-se: ```count``` é uma referência para um ```int```. Na chamada da função, 
+simplesmente mencione a variável por nome para passá-la por referência.
+
+Um parâmetro de referência é um __alias__ (apelido) para seu argumento 
+correspondente em uma chamada de função.
+
+Evite utilizar __recursão__ em situações de desempenho. Chamadas recursivas levam 
+tempo e consomem memória adicional. 
+
+### Operador de Solução de Escopo Unário
+
+Boa prática: sempre utilizar o operador unário de resolução de escopo (```::```) 
+para acessar as variáveis globais torna os programas mais fáceis de ler e entender.
+Torna claro que você está tentando acessar uma variável global.
+
+```operador_unario.cpp```
+
+### Sobrecarga de Funções 
+
+O C++ permite que várias funções do mesmo nome sejam definidas, contanto que essas
+funções tenham conjuntos diferentes de perâmetros. Essa capacidade é chamada sobrecarga
+de funções. 
+
+```sobrecarga_funcoes.cpp```
+
+### Templates de Funções
+
+Funções sobrecarregadas são normalmente utilizadas para realizar operações semelhantes
+que envolvem lógica de programa diferente em diferentes tipos de dados. 
+
+Se a lógica e as operações do programa forem idênticas para cada tipo de dados, a 
+sobrecarga pode ser realizada de forma mais compacta e conveniente utilizando 
+__template de funções__. O programador define uma única definição de template de função.
+
+```template_maximum.h```
+
+```template_teste.cpp```
