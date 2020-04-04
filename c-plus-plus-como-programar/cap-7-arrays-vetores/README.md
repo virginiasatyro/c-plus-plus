@@ -59,3 +59,16 @@ void modifyArray(int [], int);S
 
 void modifyArray(int anyArrayName[], int anyVariableName);
 ```
+
+### Vector
+
+Template ```vector``` do C++ <i>Standard Library</i> representa um tipo de array mais robusto 
+que possui muitas capacidades adicionais. 
+
+Arrays baseados em ponteiros no estilo C têm grande potencial para erros. Por exemplo, dois 
+arrays não podem ser significativamente comparados com operadores de igualdade nem com operadores
+relacionais. Os nomes de array são simplesmente ponteiros para onde os arrays iniciam na memória,
+e, naturalmente, dois arrays sempre estarão em posições de memória diferentes. 
+
+Esse template permite programadores criarem uma alternativa mais poderosa e menos propensa a 
+erro para arrays. 
