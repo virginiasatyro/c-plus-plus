@@ -1,20 +1,20 @@
-# C++ Como Programar 
+# C++ Como Programar
 
-## Caítulo 10 - Classes: Um Exame Mais Profundo 
+## Caítulo 10 - Classes: Um Exame Mais Profundo
 
 ### Objetos ```const```
 
-Enfatizamos o princípio do menor privilégio como um dos mais fundamentais da boa engenharia de software. 
+Enfatizamos o princípio do menor privilégio como um dos mais fundamentais da boa engenharia de software.
 
-Alguns objetos precisam ser modificáveis e alguns não. O programador pode utilizar a palavra chave ```const``` para especificar que um objeto não é modificável e que qualquer tentativa de modificá-lo deve resultar em um erro de compilação. 
+Alguns objetos precisam ser modificáveis e alguns não. O programador pode utilizar a palavra chave ```const``` para especificar que um objeto não é modificável e que qualquer tentativa de modificá-lo deve resultar em um erro de compilação.
 
-Declarar um objeto como ```const``` ajuda a import o princípio do menor privilégio. Pode também melhorar o desempenho. 
+Declarar um objeto como ```const``` ajuda a import o princípio do menor privilégio. Pode também melhorar o desempenho.
 
 ### Composição: Objetos Como Membros de Classes
 
 Um construtor pode passar argumentos para construtores de objeto-membro, o que é realizado via inicializadores de membro.
 
-```
+```C
 date.h
 date.cpp
 employee.h
@@ -23,22 +23,19 @@ employee.cpp
 
 ### Funções ```friend``` e Classe ```friend```
 
-Uma função ```friend``` de uma classe é definida fora do escopo dessa classe, ainda que tenha o direito de acessar 
-membros não-```public``` (e ```public```) da classe. Funções independentes ou classes inteiras podem ser declaradas como
-amigas de outras classes. 
+Uma função ```friend``` de uma classe é definida fora do escopo dessa classe, ainda que tenha o direito de acessar membros não-```public``` (e ```public```) da classe. Funções independentes ou classes inteiras podem ser declaradas como amigas de outras classes.
 
-Utilizar ```friend``` pode aprimorar o desempenho. 
+Utilizar ```friend``` pode aprimorar o desempenho.
 
-Mesmo que os protótipos para funções ```friend``` apareçam na definição de classe, as funções amigas não são funções-membro. 
-Boa prática: colocar todas as declarações em primeiro lugar dentro do corpo da definição de classe e não as preceda com 
-nenhum especificador de acesso. 
+Mesmo que os protótipos para funções ```friend``` apareçam na definição de classe, as funções amigas não são funções-membro.
+Boa prática: colocar todas as declarações em primeiro lugar dentro do corpo da definição de classe e não as preceda com nenhum especificador de acesso.
 
 ```friend.cpp```
 
 ### Utilizando o ponteiro ```this```
 
 Como as funções-membro sabem quais membros de dados do objeto devem manipular? Cada objeto tem acesso ao seu próprio endereço por um ponteiro chamado ```this```.
-O ponteiro ```this``` e um objeto não faz parte do objeto em si - isto é, o tamanho da memória ocupado pelo ponteiro ```this``` não é refletido no resultado de uma operação ```sizeof``` do objeto. Em vez disso, o ponteiro é passado (pelo compilador) como um argumento implícito para cada uma das funções-membro não-```static``` do objeto. 
+O ponteiro ```this``` e um objeto não faz parte do objeto em si - isto é, o tamanho da memória ocupado pelo ponteiro ```this``` não é refletido no resultado de uma operação ```sizeof``` do objeto. Em vez disso, o ponteiro é passado (pelo compilador) como um argumento implícito para cada uma das funções-membro não-```static``` do objeto.
 
 Os objetos utilizam o ponteiro ```this``` implicitamente ou explicitamente para referenciar seus membros de dados e funções-membro.
 
@@ -62,9 +59,9 @@ Exemplo: suponha que tivéssemos um video-game com ```Martians``` e outras criat
 
 #### Tipos Abstratos de Dados
 
-Tipos como ```int```, ```double``` e ```char``` e outros são exemplos de tipos de dados abstratos. Eles são essencialmente maneiras de representar noções do mundo real em algum nível satisfatório de precisão dentro de um sistema de computador. 
+Tipos como ```int```, ```double``` e ```char``` e outros são exemplos de tipos de dados abstratos. Eles são essencialmente maneiras de representar noções do mundo real em algum nível satisfatório de precisão dentro de um sistema de computador.
 
-Um tipo abstrato de dados na realidade captura duas noções: uma __representação de dados__ e as __operações__ que podem ser realizadas nesses dados. 
+Um tipo abstrato de dados na realidade captura duas noções: uma __representação de dados__ e as __operações__ que podem ser realizadas nesses dados.
 
 Exemplos:
 
@@ -74,9 +71,9 @@ Exemplos:
 
 - tipo de dados abstrato ```queue```
 
-### Classes Contêiners e Iteradores 
+### Classes Contêiners e Iteradores
 
-Entre os tipos de classes mais populares estão as __classes contêiners__ (classes coleção), isto é, classes projetadas para armazenar coleções de objetos. Essas classes fornecem comumente serviços como inserção, exclusão, pesquisa, classificação e teste de um item para determinar se ele é ou não um membro da coleção. 
+Entre os tipos de classes mais populares estão as __classes contêiners__ (classes coleção), isto é, classes projetadas para armazenar coleções de objetos. Essas classes fornecem comumente serviços como inserção, exclusão, pesquisa, classificação e teste de um item para determinar se ele é ou não um membro da coleção.
 
 Os arrays, pilhas, filas, árvores e listas vinculadas são exemplos de classes contêiners.
 
