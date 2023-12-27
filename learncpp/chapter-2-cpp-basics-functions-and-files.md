@@ -1,4 +1,4 @@
-# Chapter 2 Introduction / Getting Started
+# Chapter 2 C++ Basics: Functions and Files
 
 ## [2.1  Introduction to functions](https://www.learncpp.com/cpp-tutorial/introduction-to-functions/)
 
