@@ -567,7 +567,7 @@ int main()
 }
 ```
 
-- <span style="color:green">**WARNING**</span>: Avoid using-directives (such as using namespace std;) at the top of your program or in header files. They violate the reason why namespaces were added in the first place.
+- <span style="color:red">**WARNING**</span>: Avoid using-directives (such as using namespace std;) at the top of your program or in header files. They violate the reason why namespaces were added in the first place.
 
 ## [2.10 Introduction to the preprocessor](https://www.learncpp.com/cpp-tutorial/introduction-to-the-preprocessor/)
 
