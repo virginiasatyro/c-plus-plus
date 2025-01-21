@@ -1,9 +1,0 @@
-# depslib dependency file v1.0
-1514140574 source:c:\users\vivi_\onedrive\documentos\disciplinas\2018.2\pds2\learning c++\exemples\savingsaccount\main.cpp
-	<iostream>
-
-1536021896 source:c:\users\vivi_\onedrive\documentos\disciplinas\2018.2\pds2\learning c++\exemples\savingsaccount\savings.cpp
-	"savings.h"
-
-1536021908 c:\users\vivi_\onedrive\documentos\disciplinas\2018.2\pds2\learning c++\exemples\savingsaccount\savings.h
-
