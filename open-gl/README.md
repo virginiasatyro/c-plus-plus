@@ -1,1 +1,0 @@
-# Modelagem em OpenGL

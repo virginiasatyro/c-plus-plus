@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1535930742 source:c:\users\vivi_\onedrive\documentos\disciplinas\2018.2\pds2\learning c++\exemples\stdin_out\main.cpp
+	<iomanip>
+	<iostream>
+	<cmath>
+

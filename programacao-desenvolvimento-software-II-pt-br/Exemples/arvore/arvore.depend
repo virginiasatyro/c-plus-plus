@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1539101513 source:c:\users\vivi_\onedrive\documentos\disciplinas\2018.2\pds2\learning_cpp\exemples\arvore\main.cpp
+	<iostream>
+
+1539101851 source:c:\users\vivi_\onedrive\documentos\disciplinas\2018.2\pds2\learning_cpp\exemples\arvore\node.cpp
+	"node.h"
+	<iostream>
+
+1539100190 c:\users\vivi_\onedrive\documentos\disciplinas\2018.2\pds2\learning_cpp\exemples\arvore\node.h
+
+1539115522 source:c:\users\vivi_\onedrive\documentos\disciplinas\2018.2\pds2\learning_cpp\exemples\arvore\bst.cpp
+	"bst.h"
+
+1539101237 c:\users\vivi_\onedrive\documentos\disciplinas\2018.2\pds2\learning_cpp\exemples\arvore\bst.h
+	"node.h"
+

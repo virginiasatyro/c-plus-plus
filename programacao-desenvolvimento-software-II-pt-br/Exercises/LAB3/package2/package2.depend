@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1539366111 source:c:\users\vivi_\onedrive\documentos\disciplinas\2018.2\pds2\learning_cpp\exercises\lab3\package2\main.cpp
+	<iostream>
+
+1539380818 source:c:\users\vivi_\onedrive\documentos\disciplinas\2018.2\pds2\learning_cpp\exercises\lab3\package2\overnightpackage.cpp
+	"overnightpackage.h"
+
+1539380818 source:c:\users\vivi_\onedrive\documentos\disciplinas\2018.2\pds2\learning_cpp\exercises\lab3\package2\twodaypackage.cpp
+	"twodaypackage.h"
+
+1539380297 source:c:\users\vivi_\onedrive\documentos\disciplinas\2018.2\pds2\learning_cpp\exercises\lab3\package2\package.cpp
+	"package.h"
+
+1539381413 c:\users\vivi_\onedrive\documentos\disciplinas\2018.2\pds2\learning_cpp\exercises\lab3\package2\package.h
+	<string>
+
+1539373172 c:\users\vivi_\onedrive\documentos\disciplinas\2018.2\pds2\learning_cpp\exercises\lab3\package2\twodaypackage.h
+	"package.h"
+
+1539373765 c:\users\vivi_\onedrive\documentos\disciplinas\2018.2\pds2\learning_cpp\exercises\lab3\package2\overnightpackage.h
+	"package.h"
+

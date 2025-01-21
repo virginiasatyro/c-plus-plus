@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1539116118 source:c:\users\vivi_\onedrive\documentos\disciplinas\2018.2\pds2\learning_cpp\exemples\lista_generica\listasimples.cpp
+	<iostream>
+	"listasimples.h"
+
+1539116118 c:\users\vivi_\onedrive\documentos\disciplinas\2018.2\pds2\learning_cpp\exemples\lista_generica\listasimples.h
+
+1539116232 source:c:\users\vivi_\onedrive\documentos\disciplinas\2018.2\pds2\learning_cpp\exemples\lista_generica\main.cpp
+	<string>
+	"listasimples.h"
+

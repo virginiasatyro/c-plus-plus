@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1537915773 source:c:\users\vivi_\onedrive\documentos\disciplinas\2018.2\pds2\learning_cpp\exercises\lab2\consecutivos\listaencadeada.cpp
+	<iostream>
+	"listaencadeada.h"
+
+1537550230 c:\users\vivi_\onedrive\documentos\disciplinas\2018.2\pds2\learning_cpp\exercises\lab2\consecutivos\listaencadeada.h
+
+1537919315 source:c:\users\vivi_\onedrive\documentos\disciplinas\2018.2\pds2\learning_cpp\exercises\lab2\consecutivos\main.cpp
+	<iostream>
+	"listaencadeada.h"
+
